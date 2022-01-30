@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="nav-bar">
+      <h3 style="text-align: center;">Kyupid</h3>
+      <small>A Dating App</small>
+    </div>
+    <div class="container-body">
+      <div class="container-img">
+        <div class="container-desc">
+          <h2>About...</h2>
+          <p>Kyupid is a new dating app/service based on Bangalore. The app matches the users based on their gender with other users from the nearest area and has users across Bangalore in a wide demographic. The company has shared the data with us to understand their users better and gain insights. Given the sample GeoJSON file containing the area boundary of Bangalore city via our API. Use our APIs which provides Data of the users within Bangalore for Kyupid. Create a web application which can help the Kyupid team to better understand their business by plotting this data in a meaningful way on a map by matching the user location to areas in Bangalore.</p>
+        </div>
+        <div class="map-info">
+          <h1>Data with API's</h1>
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
